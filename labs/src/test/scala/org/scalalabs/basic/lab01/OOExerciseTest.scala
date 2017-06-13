@@ -10,9 +10,9 @@ class OOExerciseTest extends Specification {
   "Exercise 1: Creating an Euro" should {
     "be initialized correctly" in {
       skipped("Uncomment and fix me")
-      //      val e = new Euro(1, 5)
-      //      e.euro ==== 1
-      //      e.cents ==== 5
+            val e = new Euro(1, 5)
+            e.euro ==== 1
+            e.cents ==== 5
 
     }
     "have correct default value for cents" in {
