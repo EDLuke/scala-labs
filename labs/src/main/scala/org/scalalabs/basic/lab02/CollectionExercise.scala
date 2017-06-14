@@ -29,11 +29,17 @@ object CollectionExercise01 {
    * Output:
    * Case 1: our language is impossible to understand
    * Case 2: there are twenty six factorial possibilities
-   * Case 3: so it is okay if you want to just give up
+   * Case 3: there are twenty six factorial possibilities
    *
    */
   def googleCodeJamGooglerese(lines: String*): Seq[String] = {
-    error("fix me")
+    val input  = "ejp mysljylc kd kxveddknmc re jsicpdrysi rbcpc ypc rtcsra dkh wyfrepkym veddknkmkrkcd de kr kd eoya kw aej tysr re ujdr lkgc jv"
+    val output = "our language is impossible to understand there are twenty six factorial possibilities there are twenty six factorial possibilities"
+
+    val alphabet = 'a' to 'z'
+    val missingInput = alphabet.filterNot(input.contains)
+    val missingOutput = alphabet.filterNot(output.contains)
+    
   }
 }
 /*========================================================== */
