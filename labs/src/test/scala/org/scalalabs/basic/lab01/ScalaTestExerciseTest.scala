@@ -14,7 +14,20 @@ import org.scalatest.junit._
  * - Happy flow (divider is > 0)
  * - Alternative flow (divider is <= 0)
  */
-//@RunWith(classOf[JUnitRunner])
-class ScalaTestExerciseTest {
+@RunWith(classOf[JUnitRunner])
+class ScalaTestExerciseTest extends FunSpecLike with Matchers{
+  var state = 0
+  describe("Euro"){
+    it("should be happy"){
+      val e = new Euro(1, 21) / 11
+      e.euro  should be(0)
+      e.cents should be(11)
+    }
+
+    it("should be alternative"){
+      intercept[IllegalArgumentException]{new Euro( 1, 2) / 0}
+    }
+  }
+
 
 }

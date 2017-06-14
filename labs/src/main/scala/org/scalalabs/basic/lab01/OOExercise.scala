@@ -47,6 +47,12 @@ class Euro (val euro:Int, val cents:Int = 0) extends Currency("EUR") with Ordere
 
   def *(n:Int) : Euro = Euro.fromCents(inCents * n)
 
+  def /(divider:Int) : Euro = {
+    if(divider <= 0)
+      throw new IllegalArgumentException
+    Euro.fromCents(inCents / divider)
+  }
+
   override def toString: String = {
     if(cents == 0)
       symbol + ": " + euro + ",--"
