@@ -3,7 +3,6 @@ package org.scalalabs.basic.lab02
  * This Lab contains exercises where the usage of
  * higher order collection methods can be rehearsed.
  */
-import sys._
 
 object CollectionExercise01 {
 
@@ -37,9 +36,14 @@ object CollectionExercise01 {
     val output = "our language is impossible to understand there are twenty six factorial possibilities there are twenty six factorial possibilities"
 
     val alphabet = 'a' to 'z'
-    val missingInput = alphabet.filterNot(input.contains)
-    val missingOutput = alphabet.filterNot(output.contains)
-    
+
+    val initialMapping = (input zip output).toSet
+
+    initialMapping.groupBy(_._1).values.forall(_.size == 1)
+
+    val mapper = Map('z' -> 'q', 'q' -> 'z', ' ' -> ' ') ++ initialMapping
+
+    lines.map(_.map(mapper))
   }
 }
 /*========================================================== */
@@ -56,7 +60,7 @@ object CollectionExercise02 {
    * using a functional approach.
    */
   def groupAdultsPerAgeGroup(persons: Seq[Person]): Map[Int, Seq[Person]] = {
-    error("fix me")
+    persons.filter(_.age > 18).sortBy(_.name).groupBy(_.age / 10 * 10)
   }
 }
 
@@ -71,7 +75,10 @@ object CollectionExercise03 {
    * checkValuesIncrease(Seq(1,2,2)) == false
    */
   def checkValuesIncrease[T <% Ordered[T]](seq: Seq[T]): Boolean =
-    error("fix me")
+    if(seq.size > 1)
+      seq.sliding(2).forall(l => l(0) < l(1))
+    else
+      true
 
 }
 /*========================================================== */
@@ -82,7 +89,7 @@ object CollectionExercise04 {
    * To keep it simple it's ok to use String.split to extract all words of a sentence.
    */
   def calcLengthLongestWord(lines: String*): Int = {
-    error("fix me")
+    lines.map(_.split(" ").map(_.length).max).max
   }
 }
 
@@ -94,7 +101,13 @@ object CollectionExercise05 {
    * E.g. Seq(1,2,3) is Seq(2)
    */
   def filterWithFoldLeft(seq: Seq[Int]): Seq[Int] = {
-    error("fix me")
+    seq.foldLeft(Seq.empty[Int]){
+      (seqRet, i) =>
+        if(i % 2 == 0)
+          seqRet :+ i
+        else
+          seqRet
+    }
   }
 
   /**
@@ -103,7 +116,11 @@ object CollectionExercise05 {
    * E.g: Seq(1,2,3) is Map(true -> Seq(2), false -> Seq(1,3))
    */
   def groupByWithFoldLeft(seq: Seq[Int]): Map[Boolean, Seq[Int]] = {
-    error("fix me")
+    seq.foldLeft(Map[Boolean, Seq[Int]]().withDefaultValue(Seq.empty[Int])){
+      (map, i) =>
+        val bool = i % 2 == 0
+        map + ((bool, (map(bool) :+ i)))
+    }
   }
 }
 
