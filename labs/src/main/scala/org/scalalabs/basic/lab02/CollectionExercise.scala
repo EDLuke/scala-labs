@@ -33,15 +33,13 @@ object CollectionExercise01 {
    */
   def googleCodeJamGooglerese(lines: String*): Seq[String] = {
     val input  = "ejp mysljylc kd kxveddknmc re jsicpdrysi rbcpc ypc rtcsra dkh wyfrepkym veddknkmkrkcd de kr kd eoya kw aej tysr re ujdr lkgc jv"
-    val output = "our language is impossible to understand there are twenty six factorial possibilities there are twenty six factorial possibilities"
-
-    val alphabet = 'a' to 'z'
+    val output = "our language is impossible to understand there are twenty six factorial possibilities so it is okay if you want to just give up"
 
     val initialMapping = (input zip output).toSet
 
     initialMapping.groupBy(_._1).values.forall(_.size == 1)
 
-    val mapper = Map('z' -> 'q', 'q' -> 'z', ' ' -> ' ') ++ initialMapping
+    val mapper = Map('z' -> 'q', 'q' -> 'z', ' ' -> ' ').withDefaultValue('?') ++ initialMapping
 
     lines.map(_.map(mapper))
   }

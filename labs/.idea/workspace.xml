@@ -57,8 +57,8 @@
           <file leaf-file-name="CollectionExercise.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab02/CollectionExercise.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="122" column="5" lean-forward="false" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+                <state relative-caret-position="187">
+                  <caret line="35" column="145" lean-forward="false" selection-start-line="35" selection-start-column="145" selection-end-line="35" selection-end-column="145" />
                   <folding />
                 </state>
               </provider>
@@ -90,17 +90,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CollectionExerciseTest.scala" pinned="false" current-in-tab="false">
+          <file leaf-file-name="CollectionExerciseTest.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab02/CollectionExerciseTest.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="56" column="70" lean-forward="true" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
+                <state relative-caret-position="155">
+                  <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ListManipulationExercise02.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ListManipulationExercise02.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab02/ListManipulationExercise02.scala">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="825">
@@ -385,6 +385,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaLabs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalalabs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1127,23 +1161,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497388134511</updated>
-      <workItem from="1497388181438" duration="21693000" />
+      <workItem from="1497388181438" duration="22590000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectionExerciseTest - 2017.06.15 at 10h 43m 37s.xml">
-      <configuration name="CollectionExerciseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionExerciseTest - 2017.06.15 at 10h 44m 08s.xml">
-      <configuration name="CollectionExerciseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionExerciseTest - 2017.06.15 at 10h 44m 32s.xml">
-      <configuration name="CollectionExerciseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionExerciseTest - 2017.06.15 at 10h 44m 58s.xml">
-      <configuration name="CollectionExerciseTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CollectionExerciseTest - 2017.06.15 at 10h 45m 24s.xml">
       <configuration name="CollectionExerciseTest" configurationId="JUnit" />
     </history-entry>
@@ -1162,9 +1184,21 @@
     <history-entry file="CollectionExerciseTest - 2017.06.15 at 14h 06m 28s.xml">
       <configuration name="CollectionExerciseTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CollectionExerciseTest - 2017.06.15 at 14h 16m 05s.xml">
+      <configuration name="CollectionExerciseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionExerciseTest - 2017.06.15 at 14h 19m 40s.xml">
+      <configuration name="CollectionExerciseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionExerciseTest - 2017.06.15 at 14h 20m 35s.xml">
+      <configuration name="CollectionExerciseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionExerciseTest - 2017.06.15 at 14h 21m 31s.xml">
+      <configuration name="CollectionExerciseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21693000" />
+    <option name="totallyTimeSpent" value="22590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
@@ -1191,7 +1225,7 @@
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.209375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.209375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1339,14 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab02/CollectionExerciseTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="56" column="70" lean-forward="true" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab02/ListManipulationExercise01.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -1363,10 +1389,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab02/CollectionExerciseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab02/CollectionExercise.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="122" column="5" lean-forward="false" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="35" column="145" lean-forward="false" selection-start-line="35" selection-start-column="145" selection-end-line="35" selection-end-column="145" />
           <folding />
         </state>
       </provider>
