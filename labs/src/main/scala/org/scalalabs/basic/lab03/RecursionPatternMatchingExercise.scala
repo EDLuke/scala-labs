@@ -29,7 +29,18 @@ object RecursionPatternMatchingExercise {
    * checkValuesIncrease(Seq(1,2,2)) == false
    */
   def checkValuesIncrease(seq: Seq[Int]): Boolean = {
-    error("fix me")
+    def checkValuesIncrease(seq: Seq[Int], increase: Boolean): Boolean = {
+      if(increase) {
+        seq match {
+          case a :: b :: tail => checkValuesIncrease(b :: tail, a < b)
+          case _ => true
+        }
+      }
+      else
+        false
+    }
+
+    checkValuesIncrease(seq, true)
   }
 
   /**
@@ -37,7 +48,12 @@ object RecursionPatternMatchingExercise {
    * List(1,1,2,3,1,1) -> List(1,1), List(2), List(3), List(1,1)
    */
   def groupConsecutive[T](in: List[T]): List[List[T]] = {
-    error("fix me")
+    in match {
+      case Nil => Nil
+      case (head :: _) =>
+        val (same, rest) = in.span(_ == head)
+        same :: groupConsecutive(rest)
+    }
   }
 
   /**
@@ -45,7 +61,12 @@ object RecursionPatternMatchingExercise {
    * List(1,1,2,3,1,1) -> List(1,1,1,1), List(2), List(3)
    */
   def groupEquals[T](in: List[T]): List[List[T]] = {
-    error("fix me")
+    in match {
+      case Nil => Nil
+      case (head :: _) =>
+        val (same, rest) = in.partition(_ == head)
+        same :: groupEquals(rest)
+    }
   }
 
   /**
@@ -53,7 +74,13 @@ object RecursionPatternMatchingExercise {
    * List(1,1,2,3,1,1) -> List(1,2,3)
    */
   def compress[T](in: List[T]): List[T] = {
-    error("fix me")
+    // in.distinct
+    in match {
+      case Nil => Nil
+      case a :: b :: rest if a == b => compress(a :: rest)
+      case a :: rest => a :: compress(rest)
+
+    }
   }
 
   /**
@@ -61,7 +88,7 @@ object RecursionPatternMatchingExercise {
    * List(1,1,2,3,1,1) -> List((4,1),(1,2),(1,3))
    */
   def amountEqualMembers[T](in: List[T]): List[(Int, T)] = {
-    error("fix me")
+    groupEquals(in).map((l: List[T]) => (l.size, l.head))
   }
 
   /**
