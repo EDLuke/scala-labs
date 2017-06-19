@@ -96,7 +96,24 @@ object RecursionPatternMatchingExercise {
    * List(List(1,2,3), List('A, 'B, 'C), List('a, 'b, 'c)) -> List(List(1, 'A, 'a), List(2, 'B, 'b), List(3, 'C, 'c))
    */
   def zipMultiple(in: List[List[_]]): List[List[_]] = {
-    error("fix me")
+    def mergeFirst(in: List[List[_]]): List[_] = {
+      in match {
+        case Nil => Nil
+        case a :: rest => a.head :: mergeFirst(rest)
+      }
+    }
+
+    def removeFirst(in: List[List[_]]): List[List[_]] = {
+      in match {
+        case Nil => Nil
+        case a :: rest => a.tail :: removeFirst(rest)
+      }
+    }
+
+    in match {
+      case Nil :: _ => Nil
+      case xs => mergeFirst(xs) :: zipMultiple(removeFirst(xs))
+    }
   }
 
   /**
@@ -104,7 +121,13 @@ object RecursionPatternMatchingExercise {
    * List(List(1), List('A, 'B, 'C), List('a, 'b)) -> List(List(1, 'A, 'a))
    */
   def zipMultipleWithDifferentSize(in: List[List[_]]): List[List[_]] = {
-    error("fix me")
+    val minLength = in.sortBy(_.length).head.size
+
+    def dropAllLargerThanMinLength(in: List[List[_]], maxLength: Int): List[List[_]] = {
+      in.map(_.take(maxLength))
+    }
+
+    zipMultiple(dropAllLargerThanMinLength(in, minLength))
   }
 
 }
