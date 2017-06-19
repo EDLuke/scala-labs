@@ -34,22 +34,44 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ForExpressionExercise.scala" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ForExpressionExercise.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/ForExpressionExercise.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-219">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RecursionPatternMatchingExercise.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="RecursionPatternMatchingExercise.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/RecursionPatternMatchingExercise.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
+                <state relative-caret-position="397">
                   <caret line="120" column="37" lean-forward="false" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PatternMatchingExercise.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/PatternMatchingExercise.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="223">
+                  <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OptionExerciseTest.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/OptionExerciseTest.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#35#66#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -83,7 +105,9 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
                   <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-                  <folding />
+                  <folding>
+                    <element signature="e#35#66#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -103,6 +127,26 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="242">
                   <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ForExpressionExerciseTest.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/ForExpressionExerciseTest.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PatternMatchingExerciseTest.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/PatternMatchingExerciseTest.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -138,7 +182,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="List.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="List.scala" pinned="false" current-in-tab="false">
             <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.1-sources.jar!/scala/collection/immutable/List.scala">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="186">
@@ -153,26 +197,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="369">
                   <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ListManipulationExercise02Test.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab02/ListManipulationExercise02Test.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ListManipulationExercise01Test.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab02/ListManipulationExercise01Test.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="609">
-                  <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -200,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab02/CollectionExerciseTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab02/CollectionExercise.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/RecursionPatternMatchingExercise.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/ForExpressionExercise.scala" />
       </list>
     </option>
   </component>
@@ -210,9 +235,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="993" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -294,6 +318,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaLabs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalalabs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,6 +595,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Recu&#9;null&#9;null&#10;OO&#9;null&#9;null" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -550,33 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RecursionPatternMatchingExerciseTest">
-    <configuration default="false" name="org.scalalabs.basic.lab01 in labs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.scalalabs.basic.lab01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="labs" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.scalalabs.basic.lab01" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ForExpressionExerciseTest">
     <configuration default="false" name="ListManipulationExercise01Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -667,6 +700,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.scalalabs.basic.lab03" />
       <option name="MAIN_CLASS_NAME" value="org.scalalabs.basic.lab03.RecursionPatternMatchingExerciseTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ForExpressionExerciseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.scalalabs.basic.lab03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="labs" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.scalalabs.basic.lab03" />
+      <option name="MAIN_CLASS_NAME" value="org.scalalabs.basic.lab03.ForExpressionExerciseTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1119,19 +1178,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.org.scalalabs.basic.lab01 in labs" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise01Test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise02Test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectionExerciseTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RecursionPatternMatchingExerciseTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise01Test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise02Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionExerciseTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RecursionPatternMatchingExerciseTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ForExpressionExerciseTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RecursionPatternMatchingExerciseTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectionExerciseTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise02Test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise01Test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.org.scalalabs.basic.lab01 in labs" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ForExpressionExerciseTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RecursionPatternMatchingExerciseTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionExerciseTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise02Test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise01Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1178,16 +1237,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497388134511</updated>
-      <workItem from="1497388181438" duration="34282000" />
+      <workItem from="1497388181438" duration="35167000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RecursionPatternMatchingExerciseTest - 2017.06.16 at 12h 03m 26s.xml">
-      <configuration name="RecursionPatternMatchingExerciseTest" configurationId="JUnit" />
+    <history-entry file="ForExpressionExerciseTest - 2017.06.19 at 16h 49m 11s.xml">
+      <configuration name="ForExpressionExerciseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecursionPatternMatchingExerciseTest - 2017.06.16 at 12h 04m 59s.xml">
-      <configuration name="RecursionPatternMatchingExerciseTest" configurationId="JUnit" />
+    <history-entry file="ForExpressionExerciseTest - 2017.06.19 at 16h 52m 05s.xml">
+      <configuration name="ForExpressionExerciseTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RecursionPatternMatchingExerciseTest - 2017.06.16 at 12h 07m 51s.xml">
       <configuration name="RecursionPatternMatchingExerciseTest" configurationId="JUnit" />
@@ -1215,10 +1274,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34282000" />
+    <option name="totallyTimeSpent" value="35167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="993" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1239,10 +1298,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32683983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29235238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.209375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.209375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1382,14 +1441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/ForExpressionExercise.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab02/ListManipulationExercise02.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -1442,7 +1493,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#35#66#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,10 +1515,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/PatternMatchingExerciseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/RecursionPatternMatchingExercise.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
+        <state relative-caret-position="397">
           <caret line="120" column="37" lean-forward="false" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/PatternMatchingExercise.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/OptionExerciseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#66#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/ForExpressionExerciseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/ForExpressionExercise.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="30" />
           <folding />
         </state>
       </provider>
