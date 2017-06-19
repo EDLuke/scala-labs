@@ -16,8 +16,12 @@ object FunctionsExercise01 {
   var printed = ""
   private def logPerf(elapsed: Long) = printed = s"The execution took: $elapsed ms"
 
-  def measure[T]( /* provide correct method parameter */ ): T = {
-    error("fix me")
+  def measure[T]( block: => T ): T = {
+    val t0 = System.nanoTime()
+    val result = block
+    val t1 = System.nanoTime()
+    logPerf((t1 - t0) / 1000000)
+    result
   }
 
 }

@@ -34,7 +34,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ForExpressionExercise.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ForExpressionExercise.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/ForExpressionExercise.scala">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="330">
@@ -76,11 +76,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FunctionsExercise.scala" pinned="false" current-in-tab="false">
+          <file leaf-file-name="FunctionsExercise.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/FunctionsExercise.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="408">
+                  <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -104,10 +104,20 @@
             <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/RecursionPatternMatchingExerciseTest.scala">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
-                  <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+                  <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
                   <folding>
                     <element signature="e#35#66#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FunctionsExerciseTest.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/FunctionsExerciseTest.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -132,11 +142,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ForExpressionExerciseTest.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ForExpressionExerciseTest.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/ForExpressionExerciseTest.scala">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                  <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -147,16 +157,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
                   <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CollectionExerciseTest.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab02/CollectionExerciseTest.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="455">
-                  <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -225,6 +225,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab02/CollectionExercise.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/RecursionPatternMatchingExercise.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/ForExpressionExercise.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/FunctionsExerciseTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/FunctionsExercise.scala" />
       </list>
     </option>
   </component>
@@ -609,33 +611,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ForExpressionExerciseTest">
-    <configuration default="false" name="ListManipulationExercise01Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.scalalabs.basic.lab02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="labs" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.scalalabs.basic.lab02" />
-      <option name="MAIN_CLASS_NAME" value="org.scalalabs.basic.lab02.ListManipulationExercise01Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FunctionsExerciseTest">
     <configuration default="false" name="ListManipulationExercise02Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -726,6 +702,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.scalalabs.basic.lab03" />
       <option name="MAIN_CLASS_NAME" value="org.scalalabs.basic.lab03.ForExpressionExerciseTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FunctionsExerciseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.scalalabs.basic.lab03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="labs" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.scalalabs.basic.lab03" />
+      <option name="MAIN_CLASS_NAME" value="org.scalalabs.basic.lab03.FunctionsExerciseTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1178,19 +1180,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise01Test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise02Test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionExerciseTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RecursionPatternMatchingExerciseTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ForExpressionExerciseTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise02Test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CollectionExerciseTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RecursionPatternMatchingExerciseTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ForExpressionExerciseTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FunctionsExerciseTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ForExpressionExerciseTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RecursionPatternMatchingExerciseTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionExerciseTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise02Test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise01Test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FunctionsExerciseTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ForExpressionExerciseTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RecursionPatternMatchingExerciseTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CollectionExerciseTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ListManipulationExercise02Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1237,7 +1239,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497388134511</updated>
-      <workItem from="1497388181438" duration="35167000" />
+      <workItem from="1497388181438" duration="35758000" />
     </task>
     <servers />
   </component>
@@ -1248,17 +1250,17 @@
     <history-entry file="ForExpressionExerciseTest - 2017.06.19 at 16h 52m 05s.xml">
       <configuration name="ForExpressionExerciseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecursionPatternMatchingExerciseTest - 2017.06.16 at 12h 07m 51s.xml">
-      <configuration name="RecursionPatternMatchingExerciseTest" configurationId="JUnit" />
+    <history-entry file="FunctionsExerciseTest - 2017.06.19 at 16h 59m 46s.xml">
+      <configuration name="FunctionsExerciseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecursionPatternMatchingExerciseTest - 2017.06.16 at 12h 13m 44s.xml">
-      <configuration name="RecursionPatternMatchingExerciseTest" configurationId="JUnit" />
+    <history-entry file="FunctionsExerciseTest - 2017.06.19 at 17h 00m 29s.xml">
+      <configuration name="FunctionsExerciseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecursionPatternMatchingExerciseTest - 2017.06.16 at 12h 15m 46s.xml">
-      <configuration name="RecursionPatternMatchingExerciseTest" configurationId="JUnit" />
+    <history-entry file="FunctionsExerciseTest - 2017.06.19 at 17h 00m 49s.xml">
+      <configuration name="FunctionsExerciseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecursionPatternMatchingExerciseTest - 2017.06.16 at 12h 17m 32s.xml">
-      <configuration name="RecursionPatternMatchingExerciseTest" configurationId="JUnit" />
+    <history-entry file="FunctionsExerciseTest - 2017.06.19 at 17h 01m 06s.xml">
+      <configuration name="FunctionsExerciseTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RecursionPatternMatchingExerciseTest - 2017.06.16 at 12h 26m 18s.xml">
       <configuration name="RecursionPatternMatchingExerciseTest" configurationId="JUnit" />
@@ -1274,7 +1276,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35167000" />
+    <option name="totallyTimeSpent" value="35758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -1298,7 +1300,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29235238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29235238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.209375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1489,28 +1491,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/RecursionPatternMatchingExerciseTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#35#66#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.1-sources.jar!/scala/collection/immutable/List.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="205" column="15" lean-forward="false" selection-start-line="205" selection-start-column="15" selection-end-line="205" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/FunctionsExercise.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1549,18 +1533,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/ForExpressionExerciseTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/ForExpressionExercise.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/ForExpressionExerciseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/RecursionPatternMatchingExerciseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#35#66#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/scalalabs/basic/lab03/FunctionsExerciseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/scalalabs/basic/lab03/FunctionsExercise.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding />
         </state>
       </provider>
