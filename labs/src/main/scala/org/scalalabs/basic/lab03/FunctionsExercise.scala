@@ -35,8 +35,8 @@ object FunctionsExercise01 {
 object FunctionsExercise02 {
 
   def plusOne(x: Int): Int = {
-    //implement this using a partial function
-    error("fix me")
+    var partial = plus(1, _: Int)
+    partial(x)
   }
 
   def plus(x: Int, y: Int): Int = {
@@ -44,6 +44,10 @@ object FunctionsExercise02 {
   }
 
   def using[A <: { def close(): Unit }, B](closable: A)(f: A => B): B = {
-    error("fix me")
+    try{
+      f(closable)
+    }finally{
+      closable.close()
+    }
   }
 }
